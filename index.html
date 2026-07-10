@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Corat Coret Layar - Custom Design Premium</title>
+  <meta name="description" content="Corat Coret Layar melayani custom design premium untuk T-Shirt, Hoodie, Flag, Sticker, Banner, Tote Bag, Jersey, Poster, Mug, Topi, Keychain, Lanyard, dan lainnya. Harga terjangkau, pengerjaan cepat, full custom." />
+  <meta name="keywords" content="custom t-shirt, custom hoodie, custom sticker, custom flag, custom banner, merchandise custom, desain kaos, corat coret layar" />
+  <meta name="theme-color" content="#0D0D0D" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Corat Coret Layar - Custom Design Premium" />
+  <meta property="og:description" content="Custom design merchandise premium: T-Shirt, Flag, Sticker, Hoodie, Tote Bag, Jersey, Banner, Poster, Mug, Topi, Keychain, Lanyard." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1520975958225-1f1f1f1f1f1f?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Favicon (inline SVG fallback) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%20120'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%237C3AED'/%3E%3Cstop%20offset='1'%20stop-color='%230D0D0D'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='120'%20height='120'%20rx='24'%20fill='url(%23g)'/%3E%3Ctext%20x='60'%20y='68'%20text-anchor='middle'%20font-family='Poppins,%20sans-serif'%20font-size='34'%20fill='%23fff'%20font-weight='800'%3EC%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts + Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg__blob bg__blob--a"></div>
+    <div class="bg__blob bg__blob--b"></div>
+    <div class="bg__grid"></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor cursor--ring" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#home">Lewati ke konten</a>
+
+  <!-- Loading overlay -->
+  <div id="loading" class="loading" role="status" aria-live="polite">
+    <div class="loading__card glass">
+      <div class="loading__logo">
+        <span class="loading__mark">CCL</span>
+      </div>
+      <div class="loading__bar" aria-hidden="true">
+        <span></span>
+      </div>
+      <p class="loading__text">Memuat pengalaman premium...</p>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header id="site-header" class="header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Corat Coret Layar">
+        <span class="brand__logo" aria-hidden="true"><i class="fa-solid fa-splotch"></i></span>
+        <span class="brand__name">Corat Coret Layar</span>
+      </a>
+
+      <div class="nav__links" role="navigation">
+        <a href="#home" class="nav__link" data-nav>Home</a>
+        <a href="#produk" class="nav__link" data-nav>Produk</a>
+        <a href="#cara-order" class="nav__link" data-nav>Cara Order</a>
+        <a href="#galeri" class="nav__link" data-nav>Galeri</a>
+        <a href="#testimoni" class="nav__link" data-nav>Testimoni</a>
+        <a href="#tentang" class="nav__link" data-nav>Tentang</a>
+        <a href="#faq" class="nav__link" data-nav>FAQ</a>
+        <a href="#kontak" class="nav__link nav__link--cta" data-nav>Kontak</a>
+      </div>
+
+      <button class="nav__toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu__inner glass">
+        <a href="#home" class="mobile-menu__link" data-mobile-nav>Home</a>
+        <a href="#produk" class="mobile-menu__link" data-mobile-nav>Produk</a>
+        <a href="#cara-order" class="mobile-menu__link" data-mobile-nav>Cara Order</a>
+        <a href="#galeri" class="mobile-menu__link" data-mobile-nav>Galeri</a>
+        <a href="#testimoni" class="mobile-menu__link" data-mobile-nav>Testimoni</a>
+        <a href="#tentang" class="mobile-menu__link" data-mobile-nav>Tentang</a>
+        <a href="#faq" class="mobile-menu__link" data-mobile-nav>FAQ</a>
+        <a href="#kontak" class="mobile-menu__link mobile-menu__link--cta" data-mobile-nav>Kontak</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container hero__wrap">
+        <div class="hero__left">
+          <div class="eyebrow reveal-left">
+            <span class="pill"><i class="fa-solid fa-wand-magic-sparkles"></i> Custom Design • Premium Finish</span>
+          </div>
+
+          <h1 class="hero__title reveal-up">
+            <span class="hero__title-quote">&ldquo;Custom Design Sesuka Kamu.&rdquo;</span>
+          </h1>
+
+          <p class="hero__subtitle reveal-up" style="animation-delay:.06s">
+            Bikin T-Shirt, Flag, Sticker, Banner, Hoodie, Tote Bag, dan berbagai merchandise dengan desain unik sesuai keinginan.
+          </p>
+
+          <div class="hero__actions reveal-up" style="animation-delay:.12s">
+            <a href="#produk" class="btn btn--primary ripple" data-ripple>
+              <i class="fa-solid fa-bag-shopping"></i>
+              Lihat Produk
+            </a>
+            <a href="#kontak" class="btn btn--ghost ripple" data-ripple>
+              <i class="fa-solid fa-bolt"></i>
+              Order Sekarang
+            </a>
+          </div>
+
+          <div class="hero__stats reveal-up" style="animation-delay:.18s">
+            <div class="stat glass">
+              <div class="stat__icon"><i class="fa-solid fa-gem"></i></div>
+              <div class="stat__body">
+                <div class="stat__num" data-counter="980">0</div>
+                <div class="stat__label">Proyek selesai</div>
+              </div>
+            </div>
+            <div class="stat glass">
+              <div class="stat__icon"><i class="fa-solid fa-truck-fast"></i></div>
+              <div class="stat__body">
+                <div class="stat__num" data-counter="3">0</div>
+                <div class="stat__label">Hari produksi (estimasi)</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="typing glass" aria-label="Typing effect">
+            <span class="typing__label">Kita siap:</span>
+            <span class="typing__text" data-typing="T-Shirt, Flag, Sticker, Hoodie, Tote Bag"></span>
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="mock glass reveal-right" style="animation-delay:.08s">
+            <div class="mock__glow"></div>
+            <div class="mock__frame">
+              <img
+                class="mock__img"
+                loading="lazy"
+                decoding="async"
+                src="https://images.unsplash.com/photo-1520974735194-6f6d2e07f1d7?auto=format&fit=crop&w=1200&q=80"
+                alt="Mockup apparel premium"
+              />
+              <div class="mock__overlay">
+                <div class="mock__tag"><i class="fa-solid fa-palette"></i> Corat Coret Layar</div>
+                <div class="mock__badge">
+                  <div class="badge__title">Premium Custom</div>
+                  <div class="badge__sub">Print • Sublim • DTG</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__cards">
+            <div class="mini-card glass reveal-up" style="animation-delay:.16s">
+              <div class="mini-card__icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="mini-card__title">Aman untuk Brand Kamu</div>
+              <div class="mini-card__text">Proses rapi, warna stabil, detail tajam.</div>
+            </div>
+            <div class="mini-card glass reveal-up" style="animation-delay:.22s">
+              <div class="mini-card__icon"><i class="fa-solid fa-bolt"></i></div>
+              <div class="mini-card__title">Revisi Fleksibel</div>
+              <div class="mini-card__text">Konsultasi dulu biar hasil sesuai ekspektasi.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__parallax" aria-hidden="true"></div>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="section">
+      <div class="container section-head reveal-up">
+        <p class="section-head__kicker"><i class="fa-solid fa-layer-group"></i> Tentang Kami</p>
+        <h2 class="section-head__title">Custom Design berkualitas. Hasil premium, harga tetap ramah.</h2>
+        <p class="section-head__desc">
+          Corat Coret Layar melayani jasa custom design merchandise dengan standar kualitas tinggi: detail bersih, finishing rapi, dan desain yang benar-benar sesuai.
+          Kamu tinggal kirim ide—kami bantu bentuk jadi karya yang siap dipakai.
+        </p>
+      </div>
+
+      <div class="container grid-2">
+        <div class="glass info-card reveal-left">
+          <h3 class="info-card__title">Full Custom, Dari Nol</h3>
+          <p class="info-card__text">Dari konsep, sketsa, warna, sampai siap produksi. Kamu bisa request style sesuka hati.</p>
+          <ul class="checklist">
+            <li><i class="fa-solid fa-check"></i> Premium quality</li>
+            <li><i class="fa-solid fa-check"></i> Warna konsisten</li>
+            <li><i class="fa-solid fa-check"></i> Detail tajam</li>
+          </ul>
+        </div>
+
+        <div class="glass info-card reveal-right">
+          <h3 class="info-card__title">Harga Terjangkau, Pengerjaan Cepat</h3>
+          <p class="info-card__text">Kombinasi kualitas & efisiensi supaya kamu bisa tampil keren tanpa menguras budget.</p>
+          <div class="info-card__metrics">
+            <div class="metric">
+              <div class="metric__icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <div class="metric__value">Cepat</div>
+                <div class="metric__label">Estimasi produksi</div>
+              </div>
+            </div>
+            <div class="metric">
+              <div class="metric__icon"><i class="fa-solid fa-handshake"></i></div>
+              <div>
+                <div class="metric__value">Support Ramah</div>
+                <div class="metric__label">Konsultasi desain</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUK -->
+    <section id="produk" class="section">
+      <div class="container section-head reveal-up">
+        <p class="section-head__kicker"><i class="fa-solid fa-bag-shopping"></i> Produk</p>
+        <h2 class="section-head__title">Pilih merchandise kamu. Kami kerjakan custom premium.</h2>
+        <p class="section-head__desc">Contoh visual di bawah bisa kamu jadikan referensi. Ganti tema & warna sesuai brand kamu.</p>
+      </div>
+
+      <div class="container grid-products">
+        <article class="product-card glass reveal-up">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975958225-1f1f1f1f1f1f?auto=format&fit=crop&w=900&q=80" alt="Custom T-Shirt" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-shirt"></i></div>
+            <h3 class="product-card__title">Custom T-Shirt</h3>
+            <p class="product-card__desc">Kaos custom dengan warna tajam dan finishing premium.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.05s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1582582429416-2a0aa8f1a5a5?auto=format&fit=crop&w=900&q=80" alt="Custom Flag" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-flag"></i></div>
+            <h3 class="product-card__title">Custom Flag</h3>
+            <p class="product-card__desc">Flag untuk event, komunitas, atau brand—siap tampil.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.10s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975682038-2e1a2e1a2e1a?auto=format&fit=crop&w=900&q=80" alt="Custom Sticker" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-sticker-mule"></i></div>
+            <h3 class="product-card__title">Custom Sticker</h3>
+            <p class="product-card__desc">Sticker desain unik: lucu, elegan, atau bold—bebas.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.15s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975757060-0f0f0f0f0f0f?auto=format&fit=crop&w=900&q=80" alt="Hoodie" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-hands-bubbles"></i></div>
+            <h3 class="product-card__title">Hoodie</h3>
+            <p class="product-card__desc">Hoodie premium dengan detail desain yang nendang.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.20s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Tote Bag" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-bag-shopping"></i></div>
+            <h3 class="product-card__title">Tote Bag</h3>
+            <p class="product-card__desc">Tas tote custom untuk kebutuhan sehari-hari.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.25s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975916090-1f1f1f1f1f1f?auto=format&fit=crop&w=900&q=80" alt="Jersey" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-futbol"></i></div>
+            <h3 class="product-card__title">Jersey</h3>
+            <p class="product-card__desc">Jersey tim/komunitas dengan desain full custom.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.30s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975869012-5a5a5a5a5a5a?auto=format&fit=crop&w=900&q=80" alt="Poster" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-file-image"></i></div>
+            <h3 class="product-card__title">Poster</h3>
+            <p class="product-card__desc">Poster desain event dengan kualitas detail yang solid.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.35s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=80" alt="Banner" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-signs-post"></i></div>
+            <h3 class="product-card__title">Banner</h3>
+            <p class="product-card__desc">Banner untuk promosi: tampil premium & terbaca.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.40s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975681033-1b1b1b1b1b1b?auto=format&fit=crop&w=900&q=80" alt="Mug" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-mug-hot"></i></div>
+            <h3 class="product-card__title">Mug</h3>
+            <p class="product-card__desc">Mug custom sebagai hadiah atau brand merch.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.45s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=900&q=80" alt="Topi" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-hat-cowboy"></i></div>
+            <h3 class="product-card__title">Topi</h3>
+            <p class="product-card__desc">Topi custom dengan tampilan eksklusif.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.50s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975890000-2c2c2c2c2c2c?auto=format&fit=crop&w=900&q=80" alt="Keychain" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-key"></i></div>
+            <h3 class="product-card__title">Keychain</h3>
+            <p class="product-card__desc">Keychain custom yang cocok untuk souvenir.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="product-card glass reveal-up" style="animation-delay:.55s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975700000-3d3d3d3d3d3d?auto=format&fit=crop&w=900&q=80" alt="Lanyard" class="product-card__img" />
+          <div class="product-card__body">
+            <div class="product-card__icon"><i class="fa-solid fa-id-badge"></i></div>
+            <h3 class="product-card__title">Lanyard</h3>
+            <p class="product-card__desc">Lanyard custom untuk event, sekolah, atau kantor.</p>
+            <a href="#kontak" class="product-card__btn btn btn--small btn--primary ripple" data-ripple>Pesan Sekarang</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CARA ORDER -->
+    <section id="cara-order" class="section">
+      <div class="container section-head reveal-up">
+        <p class="section-head__kicker"><i class="fa-solid fa-route"></i> Cara Order</p>
+        <h2 class="section-head__title">Proses gampang, hasil tetap premium.</h2>
+        <p class="section-head__desc">Ikuti langkah ini—tim kami akan memandu sampai produksi.</p>
+      </div>
+
+      <div class="container timeline">
+        <div class="timeline__item glass reveal-left">
+          <div class="timeline__dot"><i class="fa-solid fa-comments"></i></div>
+          <div class="timeline__content">
+            <h3>1. Hubungi Admin</h3>
+            <p>Mulai dengan chat untuk konsultasi kebutuhan dan referensi desain.</p>
+          </div>
+        </div>
+        <div class="timeline__item glass reveal-up">
+          <div class="timeline__dot"><i class="fa-solid fa-pen-nib"></i></div>
+          <div class="timeline__content">
+            <h3>2. Kirim Design</h3>
+            <p>Kirim file/ide. Jika belum ada, kamu bisa share konsep secara garis besar.</p>
+          </div>
+        </div>
+        <div class="timeline__item glass reveal-up">
+          <div class="timeline__dot"><i class="fa-solid fa-arrows-rotate"></i></div>
+          <div class="timeline__content">
+            <h3>3. Revisi</h3>
+            <p>Revisi sesuai arahan agar hasil benar-benar pas.</p>
+          </div>
+        </div>
+        <div class="timeline__item glass reveal-right">
+          <div class="timeline__dot"><i class="fa-solid fa-industry"></i></div>
+          <div class="timeline__content">
+            <h3>4. Produksi</h3>
+            <p>Proses printing/craft dengan kontrol detail dan kualitas.</p>
+          </div>
+        </div>
+        <div class="timeline__item glass reveal-right">
+          <div class="timeline__dot"><i class="fa-solid fa-truck"></i></div>
+          <div class="timeline__content">
+            <h3>5. Pengiriman</h3>
+            <p>Barang dikirim dengan aman. Kamu tinggal tunggu sampai sampai.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri" class="section">
+      <div class="container section-head reveal-up">
+        <p class="section-head__kicker"><i class="fa-solid fa-images"></i> Galeri</p>
+        <h2 class="section-head__title">Banyak contoh desain Corat Coret Layar</h2>
+        <p class="section-head__desc">Hover untuk lihat efek premium: zoom, blur, dan animasi halus.</p>
+      </div>
+
+      <div class="container masonry" id="galleryGrid">
+        <figure class="masonry__item glass reveal-up">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975864010-101010101010?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 1" />
+          <figcaption>Corat Coret • Custom Print</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.04s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975969000-121212121212?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 2" />
+          <figcaption>Dark Gradient • Premium</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.08s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975707000-131313131313?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 3" />
+          <figcaption>Sticker Set • Urban Vibes</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.12s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975927000-141414141414?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 4" />
+          <figcaption>Banner Event • Bold Look</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.16s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975752000-151515151515?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 5" />
+          <figcaption>Hoodie • Purple Accent</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.20s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975902000-161616161616?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 6" />
+          <figcaption>Jersey • Team Identity</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.24s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975601000-171717171717?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 7" />
+          <figcaption>Tote Bag • Clean Minimal</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.28s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975658000-181818181818?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 8" />
+          <figcaption>Keychain • Small Details</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.32s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975716000-191919191919?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 9" />
+          <figcaption>Mug • Everyday Premium</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.36s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975853000-202020202020?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 10" />
+          <figcaption>Poster • Gallery Ready</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.40s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975971000-212121212121?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 11" />
+          <figcaption>Flag • Event Momentum</figcaption>
+        </figure>
+        <figure class="masonry__item glass reveal-up" style="animation-delay:.44s">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1520975888000-222222222222?auto=format&fit=crop&w=1200&q=80" alt="Galeri desain 12" />
+          <figcaption>Lanyard • Ready For Event</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Kenapa Memilih Kami -->
+    <section class="section">
+      <div class="container section-head reveal-up">
+        <p class="section-head__kicker"><i class="fa-solid fa-star"></i> Kenapa Memilih Kami</p>
+        <h2 class="section-head__title">Eksklusif di mata, solid di hasil.</h2>
+        <p class="section-head__desc">Kombinasi kualitas, proses rapi, dan dukungan customer yang membuat kamu nyaman.</p>
+      </div>
+
+      <div class="container grid-check">
+        <div class="feature glass reveal-left"><i class="fa-solid fa-crown"></i><h3>Premium Quality</h3></div>
+        <div class="feature glass reveal-up"><i class="fa-solid fa-wand-magic-sparkles"></i><h3>Full Custom</h3></div>
+        <div class="feature glass reveal-up"><i class="fa-solid fa-tag"></i><h3>Harga Terjangkau</h3></div>
+        <div class="feature glass reveal-right"><i class="fa-solid fa-bolt"></i><h3>Pengerjaan Cepat</h3></div>
+        <div class="feature glass reveal-left"><i class="fa-solid fa-lock"></i><h3>Aman</h3></div>
+        <div class="feature glass reveal-up"><i class="fa-solid fa-layer-group"></i><h3>Banyak Pilihan Produk</h3></div>
+        <div class="feature glass reveal-up"><i class="fa-solid fa-headset"></i><h3>Customer Support Ramah</h3></div>
+        <div class="feature glass reveal-right"><i class="fa-solid fa-sparkles"></i><h3>Finishing Rapi</h3></div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="section">
+      <div class="container section-head reveal-up">
+        <p class="section-head__kicker"><i class="fa-solid fa-comment-dots"></i> Testimoni</p>
+        <h2 class="section-head__title">Yang bikin percaya: pengalaman pelanggan</h2>
+        <p class="section-head__desc">Slider otomatis, minimal 6 testimoni dengan dummy data.</p>
+      </div>
+
+      <div class="container testimonial">
+        <div class="testimonial__slider glass reveal-up">
+          <div class="testimonial__track" id="testimonialTrack">
+            <article class="testimonial__card" data-testimonial>
+              <div class="t__top">
+                <img loading="lazy" decoding="async" class="t__avatar" src="https://i.pravatar.cc/120?img=12" alt="Avatar A" />
+                <div>
+                  <h3 class="t__name">Nadia A.</h3>
+                  <p class="t__meta">Custom Sticker</p>
+                </div>
+              </div>
+              <p class="t__quote">“Desainnya rapih banget. Warna ungu-nya keluar premium, dan responnya cepat.”</p>
+              <div class="t__stars" aria-label="Rating 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </article>
+
+            <article class="testimonial__card" data-testimonial>
+              <div class="t__top">
+                <img loading="lazy" decoding="async" class="t__avatar" src="https://i.pravatar.cc/120?img=35" alt="Avatar B" />
+                <div>
+                  <h3 class="t__name">Rizky P.</h3>
+                  <p class="t__meta">Custom T-Shirt</p>
+                </div>
+              </div>
+              <p class="t__quote">“Keren. Bahannya nyaman, print-nya tajam, dan revisinya sesuai request komunitas kami.”</p>
+              <div class="t__stars" aria-label="Rating 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </article>
+
+            <article class="testimonial__card" data-testimonial>
+              <div class="t__top">
+                <img loading="lazy" decoding="async" class="t__avatar" src="https://i.pravatar.cc/120?img=44" alt="Avatar C" />
+                <div>
+                  <h3 class="t__name">Salsa K.</h3>
+                  <p class="t__meta">Custom Hoodie</p>
+                </div>
+              </div>
+              <p class="t__quote">“Packaging rapi dan hasilnya mahal. Spot ungu di desainnya pas banget.”</p>
+              <div class="t__stars" aria-label="Rating 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </article>
+
+            <article class="testimonial__card" data-testimonial>
+              <div class="t__top">
+                <img loading="lazy" decoding="async" class="t__avatar" src="https://i.pravatar.cc/120?img=8" alt="Avatar D" />
+                <div>
+                  <h3 class="t__name">Dimas R.</h3>
+                  <p class="t__meta">Custom Flag</p>
+                </div>
+              </div>
+              <p class="t__quote">“Flag-nya tebal dan warna tidak pudar. Adminnya informatif sampai barang berangkat.”</p>
+              <div class="t__stars" aria-label="Rating 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </article>
+
+            <article class="testimonial__card" data-testimonial>
+              <div class="t__top">
+                <img loading="lazy" decoding="async" class="t__avatar" src="https://i.pravatar.cc/120?img=21" alt="Avatar E" />
+                <div>
+                  <h3 class="t__name">Putri W.</h3>
+                  <p class="t__meta">Custom Banner</p>
+                </div>
+              </div>
+              <p class="t__quote">“Banner promo event kami terlihat premium. Teksnya jelas, desainnya sesuai mockup.”</p>
+              <div class="t__stars" aria-label="Rating 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </article>
+
+            <article class="testimonial__card" data-testimonial>
+              <div class="t__top">
+                <img loading="lazy" decoding="async" class="t__avatar" src="https://i.pravatar.cc/120?img=16" alt="Avatar F" />
+                <div>
+                  <h3 class="t__name">Andra H.</h3>
+                  <p class="t__meta">Custom Mug</p>
+                </div>
+              </div>
+              <p class="t__quote">“Hadiah anniversary jadi makin berkesan. Detail desainnya rapi dan warna tetap bagus.”</p>
+              <div class="t__stars" aria-label="Rating 5">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="testimonial__controls">
+          <button class="tbtn" id="tPrev" aria-label="Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="dots" id="tDots" aria-hidden="true"></div>
+          <button class="tbtn" id="tNext" aria-label="Berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container section-head reveal-up">
+        <p class="section-head__kicker"><i class="fa-solid fa-circle-question"></i> FAQ</p>
+        <h2 class="section-head__title">Pertanyaan yang sering muncul</h2>
+        <p class="section-head__desc">Jawaban cepat biar kamu nggak bingung dari awal.</p>
+      </div>
+
+      <div class="container faq glass reveal-up">
+        <div class="accordion" id="faqAccordion">
+          <div class="acc-item">
+            <button class="acc-trigger" aria-expanded="false">
+              <span>Apa itu custom design?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="acc-panel" hidden>
+              <p>Custom design berarti desain bisa dibuat sesuai kebutuhanmu: bentuk, warna, gaya, sampai layout.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger" aria-expanded="false">
+              <span>Apakah bisa revisi?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="acc-panel" hidden>
+              <p>Bisa. Kamu akan dibantu menyesuaikan desain sampai hasilnya sesuai ekspektasi.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger" aria-expanded="false">
+              <span>Berapa estimasi produksi?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="acc-panel" hidden>
+              <p>Estimasi bisa berbeda tergantung produk & antrian. Umumnya 2–5 hari kerja (akan diinformasikan saat konfirmasi).</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger" aria-expanded="false">
+              <span>Apakah melayani order kecil?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="acc-panel" hidden>
+              <p>Ya. Order kecil tetap kami tangani selama detail dan desain jelas.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger" aria-expanded="false">
+              <span>Bagaimana cara kirim desain?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <div class="acc-panel" hidden>
+              <p>Kamu bisa kirim file gambar/brief lewat chat. Jika kamu belum punya desain, kamu bisa share ide dan referensi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK + FOOTER -->
+    <section id="kontak" class="section">
+      <div class="container section-head reveal-up">
+        <p class="section-head__kicker"><i class="fa-solid fa-phone"></i> Kontak</p>
+        <h2 class="section-head__title">Siap custom merchandise premium?</h2>
+        <p class="section-head__desc">Klik tombol WhatsApp floating untuk konsultasi, atau gunakan tombol Order Sekarang di atas.</p>
+      </div>
+
+      <footer class="footer">
+        <div class="container footer__grid">
+          <div class="footer__brand reveal-left">
+            <div class="brand brand--footer">
+              <span class="brand__logo" aria-hidden="true"><i class="fa-solid fa-splotch"></i></span>
+              <span class="brand__name">Corat Coret Layar</span>
+            </div>
+            <p class="footer__text">Custom design berkualitas dengan hasil premium dan harga terjangkau.</p>
+            <div class="footer__social">
+              <a class="soc" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a class="soc" href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+          <div class="footer__col glass reveal-up">
+            <h3 class="footer__title">Alamat</h3>
+            <p class="footer__text">(Dummy) Jl. Contoh No. 12, Kota Anda</p>
+          </div>
+
+          <div class="footer__col glass reveal-up">
+            <h3 class="footer__title">Jam Operasional</h3>
+            <p class="footer__text">Senin - Sabtu: 10.00 - 20.00</p>
+            <p class="footer__text">Minggu: libur</p>
+          </div>
+
+          <div class="footer__col glass reveal-right">
+            <h3 class="footer__title">Media Sosial</h3>
+            <a class="footer__link" href="#" aria-label="Instagram">@corat-coret.merch</a>
+            <a class="footer__link" href="#" aria-label="WhatsApp">Chat via WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="container footer__bottom-inner">
+            <span>© <span id="year"></span> Corat Coret Layar. All rights reserved.</span>
+            <span class="footer__small">Dibuat dengan rasa premium ✦</span>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Floating buttons -->
+  <a
+    class="float float--wa"
+    href="https://wa.me/6281333385899?text=Halo%20Admin%20Corat%20Coret%20Layar%20%F0%9F%91%8B%0A%0ASaya%20tertarik%20dengan%20layanan%20custom%20merchandise.%0A%0ASaya%20ingin%20memesan%3A%0A%E2%98%90%20T-Shirt%0A%E2%98%90%20Flag%0A%E2%98%90%20Sticker%0A%E2%98%90%20Hoodie%0A%E2%98%90%20Tote%20Bag%0A%E2%98%90%20Jersey%0A%E2%98%90%20Banner%0A%E2%98%90%20Poster%0A%E2%98%90%20Mug%0A%E2%98%90%20Topi%0A%E2%98%90%20Lainnya%0A%0ASaya%20ingin%20berkonsultasi%20terlebih%20dahulu%20mengenai%20desain%20dan%20harga.%0A%0ATerima%20kasih."
+    target="_blank"
+    rel="noopener"
+    aria-label="Chat WhatsApp"
+  >
+    <span class="float__icon" aria-hidden="true">
+      <i class="fa-brands fa-whatsapp"></i>
+    </span>
+    <span class="float__text" aria-hidden="true">WA</span>
+  </a>
+
+  <a
+    class="float float--ig"
+    href="https://www.instagram.com/corat-coret.merch/"
+    target="_blank"
+    rel="noopener"
+    aria-label="Buka Instagram"
+    data-tooltip="Lihat hasil karya kami di Instagram."
+  >
+    <span class="float__icon" aria-hidden="true">
+      <i class="fa-brands fa-instagram"></i>
+    </span>
+    <span class="float__text" aria-hidden="true">IG</span>
+  </a>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
